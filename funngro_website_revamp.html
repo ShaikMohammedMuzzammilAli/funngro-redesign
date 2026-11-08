@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title id="seo-title">Funngro | India's #1 Youth Earning & Brand Collaboration Platform</title>
+  <meta id="seo-desc" name="description" content="Empowering 70 Lakh+ teenagers & college students to earn their first income working on real brand campaigns with top companies. Featured on Shark Tank India Season 2.">
+  <meta name="keywords" content="Funngro, youth freelancing, teen earning app, Gen-Z marketing, student internships, Shark Tank India, brand campaigns, UGC creators, college ambassadors">
+  <meta name="author" content="Funngro">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.funngro.com/">
+  <meta id="og-title" property="og:title" content="Funngro | Smart Earning for Teens & Gen-Z Talent for Brands">
+  <meta id="og-desc" property="og:description" content="Join 70 Lakh+ youth creators earning with top Indian brands. Guaranteed UPI payments, verified campaigns, and Shark Tank India backed.">
+  <meta property="og:image" content="https://placehold.co/1200x630/090d16/10b981?text=Funngro+Shark+Tank+Featured">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Funngro | India's Leading Youth Freelancing Platform">
+  <meta name="twitter:description" content="Earn pocket money doing real company tasks or hire India's top Gen-Z creators.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#080c15',
+              darker: '#04070d',
+              surface: '#0f172a',
+              card: '#131e36',
+              border: '#1e293b',
+              accent: '#00e676',
+              emerald: '#10b981',
+              cyan: '#06b6d4',
+              muted: '#94a3b8'
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+          },
+          boxShadow: {
+            'glow-emerald': '0 0 25px -5px rgba(0, 230, 118, 0.35)',
+            'glow-cyan': '0 0 25px -5px rgba(6, 182, 212, 0.35)',
+            'card-glass': '0 8px 32px 0 rgba(0, 0, 0, 0.37)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Schema.org JSON-LD for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Funngro",
+    "url": "https://www.funngro.com",
+    "logo": "https://www.funngro.com/logo.png",
+    "description": "Funngro enables teenagers to earn their first income doing real projects for top brands, featured on Shark Tank India.",
+    "foundingDate": "2021",
+    "sameAs": [
+      "https://www.instagram.com/funngro",
+      "https://www.linkedin.com/company/funngro"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "email": "support@funngro.com"
+    }
+  }
+  </script>
+
+  <style>
+    /* Custom Utilities & Glow Highlights */
+    .glassmorphic {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glassmorphic-card {
+      background: linear-gradient(135deg, rgba(19, 30, 54, 0.7) 0%, rgba(12, 20, 37, 0.85) 100%);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(16, 185, 129, 0.15);
+    }
+    .neon-text-glow {
+      text-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
+    }
+    /* Hide scrollbars for clean horizontal pills */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    /* Smooth tab indicator transitions */
+    .tab-slider {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  </style>
+</head>
+
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-brand-accent selection:text-brand-darker min-h-screen flex flex-col overflow-x-hidden">
+
+  <!-- ========================================================== -->
+  <!-- TOP NOTIFICATION BANNER (Shark Tank Proof) -->
+  <!-- ========================================================== -->
+  <aside aria-label="Announcement" class="bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-950 border-b border-emerald-500/20 py-2 px-4 text-xs font-medium text-center text-slate-300 flex items-center justify-center gap-2">
+    <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-brand-accent border border-emerald-500/30">
+      SHARK TANK INDIA S2
+    </span>
+    <span>Backed by Amit Jain (CarDekho) • India's most trusted teen freelance &amp; brand network</span>
+    <span class="hidden md:inline text-brand-accent">★ 4.8/5 Rated App</span>
+  </aside>
+
+  <!-- ========================================================== -->
+  <!-- MAIN STICKY NAVIGATION -->
+  <!-- ========================================================== -->
+  <header class="sticky top-0 z-50 glassmorphic border-b border-slate-800/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo & Tagline -->
+        <div class="flex items-center gap-3">
+          <a href="#home" class="flex items-center gap-2 group" aria-label="Funngro Home">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-accent to-emerald-600 flex items-center justify-center shadow-glow-emerald group-hover:scale-105 transition-transform">
+              <svg class="w-6 h-6 text-brand-darker font-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+              </svg>
+            </div>
+            <div>
+              <span class="text-2xl font-black tracking-tight text-white flex items-center gap-1">
+                funngro<span class="text-brand-accent text-3xl leading-none">.</span>
+              </span>
+              <span class="text-[10px] uppercase tracking-widest text-slate-400 block -mt-1 font-semibold">Earn • Learn • Hire</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- CENTER VIEW SWITCHER PILL (Page 1: Teens vs Page 2: Companies) -->
+        <nav aria-label="Audience Switcher" class="bg-brand-darker/90 p-1.5 rounded-full border border-slate-700/60 shadow-inner flex items-center relative">
+          <button id="toggle-teens" onclick="switchPortal('teens')" class="px-5 py-2 rounded-full text-xs sm:text-sm font-bold flex items-center gap-2 transition-all duration-200 bg-brand-accent text-brand-darker shadow-glow-emerald">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+            </svg>
+            <span>For Teens &amp; Youth</span>
+          </button>
+          <button id="toggle-companies" onclick="switchPortal('companies')" class="px-5 py-2 rounded-full text-xs sm:text-sm font-medium flex items-center gap-2 transition-all duration-200 text-slate-400 hover:text-white">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+            </svg>
+            <span>For Companies &amp; Brands</span>
+          </button>
+        </nav>
+
+        <!-- Dynamic Navigation Links & Action Button -->
+        <div class="hidden lg:flex items-center gap-6">
+          <ul id="dynamic-nav-links" class="flex items-center gap-6 text-sm font-medium text-slate-300">
+            <!-- Injected dynamically based on active page -->
+          </ul>
+
+          <div id="dynamic-cta-btn">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Mobile Drawer Trigger Button -->
+        <div class="flex lg:hidden items-center">
+          <button type="button" onclick="toggleMobileMenu()" class="p-2.5 rounded-xl bg-slate-800/80 text-slate-200 hover:text-brand-accent border border-slate-700" aria-label="Toggle navigation menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Slide-down Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-800 bg-brand-surface/95 px-6 py-5 backdrop-blur-xl">
+      <div class="flex flex-col gap-4">
+        <ul id="mobile-nav-links" class="flex flex-col gap-3 text-sm font-medium text-slate-300">
+          <!-- Mobile items injected -->
+        </ul>
+        <div id="mobile-cta-btn" class="pt-2"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================== -->
+  <!-- MAIN CONTENT CONTAINER -->
+  <!-- ========================================================== -->
+  <main class="flex-grow">
+
+    <!-- =================================================================== -->
+    <!-- VIEW 1: TEEN EARNING PORTAL (Default Page)                           -->
+    <!-- =================================================================== -->
+    <div id="teen-portal-view" class="transition-opacity duration-300">
+
+      <!-- HERO SECTION -->
+      <section class="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden">
+        <!-- Ambient decorative glow circles -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-10 right-10 w-72 h-72 bg-brand-cyan/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+              
+              <!-- Tagline Badge -->
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/70 border border-emerald-500/30 text-brand-accent text-xs font-semibold">
+                <span class="w-2 h-2 rounded-full bg-brand-accent animate-ping"></span>
+                <span>Active Gigs Open Today: 1,420+ Campaigns</span>
+              </div>
+
+              <!-- Main H1 Headline -->
+              <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+                Get Paid by India’s Top Brands With Your <span class="bg-gradient-to-r from-brand-accent via-emerald-400 to-teal-300 bg-clip-text text-transparent">Smartphone</span>
+              </h1>
+
+              <!-- Subheadline -->
+              <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                Join <strong>70 Lakh+ school &amp; college students</strong> earning real pocket money, building verifiable work experience, and unlocking financial independence before graduation.
+              </p>
+
+              <!-- Live Earning Ticker -->
+              <div class="p-3.5 rounded-2xl bg-brand-darker/90 border border-emerald-500/25 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs font-medium text-slate-300">
+                <div class="flex items-center gap-2">
+                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+                  <span class="text-slate-400">Paid to Teens This Week:</span>
+                  <span class="text-brand-accent font-bold font-mono text-sm">₹19,45,280+</span>
+                </div>
+                <div class="hidden sm:block text-slate-600">|</div>
+                <div class="flex items-center gap-1.5 text-slate-300">
+                  <svg class="w-4 h-4 text-brand-accent" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span>Direct UPI Transfer in &lt; 24h</span>
+                </div>
+              </div>
+
+              <!-- CTAs -->
+              <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                <a href="#teen-calculator" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-brand-accent text-brand-darker font-bold text-center hover:bg-emerald-400 transition-all shadow-glow-emerald flex items-center justify-center gap-2">
+                  <span>Start Earning Now</span>
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+                <a href="#categories" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-slate-800/90 hover:bg-slate-700 text-white font-semibold text-center border border-slate-700 transition-all">
+                  Explore Active Gigs 🚀
+                </a>
+              </div>
+
+              <!-- Shark Tank Proof Row -->
+              <div class="pt-4 flex items-center justify-center lg:justify-start gap-6 text-xs text-slate-400">
+                <div class="flex items-center gap-2">
+                  <div class="w-5 h-5 rounded-full bg-emerald-500/20 text-brand-accent flex items-center justify-center font-bold">✓</div>
+                  <span>Zero Investment Required</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-5 h-5 rounded-full bg-emerald-500/20 text-brand-accent flex items-center justify-center font-bold">✓</div>
+                  <span>Parent Consent Verified</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Hero Interactive Visual Card -->
+            <div class="lg:col-span-5">
+              <div class="glassmorphic-card p-6 sm:p-8 rounded-3xl relative shadow-2xl overflow-hidden border border-emerald-500/20">
+                
+                <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
+                  <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-brand-accent/40 flex items-center justify-center text-2xl">
+                      🎓
+                    </div>
+                    <div>
+                      <h2 class="text-base font-bold text-white">Aryan K.</h2>
+                      <p class="text-xs text-slate-400">Class 11 • Delhi NCR</p>
+                    </div>
+                  </div>
+                  <span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/10 text-brand-accent border border-emerald-500/30">
+                    PRO TEEN CREATOR
+                  </span>
+                </div>
+
+                <!-- Earnings Snapshot Box -->
+                <div class="bg-brand-darker/90 rounded-2xl p-5 mb-5 border border-slate-800">
+                  <div class="flex justify-between items-center text-xs text-slate-400 mb-1">
+                    <span>Lifetime Payout (UPI)</span>
+                    <span class="text-emerald-400 font-semibold">100% Verified</span>
+                  </div>
+                  <div class="text-3xl font-extrabold text-white font-mono flex items-baseline gap-2">
+                    ₹34,850
+                    <span class="text-xs font-sans text-brand-accent font-semibold">+ ₹3,200 today</span>
+                  </div>
+                  <div class="w-full bg-slate-800 h-2 rounded-full mt-3 overflow-hidden">
+                    <div class="bg-gradient-to-r from-emerald-500 to-brand-accent h-full w-4/5 rounded-full"></div>
+                  </div>
+                </div>
+
+                <!-- Recent Gigs Completed -->
+                <div class="space-y-3">
+                  <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Recent Completed Tasks</p>
+                  
+                  <div class="flex items-center justify-between p-3 rounded-xl bg-slate-800/40 border border-slate-800 text-xs">
+                    <div class="flex items-center gap-2.5">
+                      <span class="w-7 h-7 rounded-lg bg-pink-500/10 text-pink-400 flex items-center justify-center font-bold">IG</span>
+                      <div>
+                        <p class="font-medium text-white">Instagram UGC Reel</p>
+                        <p class="text-[10px] text-slate-400">D2C Snack Brand Campaign</p>
+                      </div>
+                    </div>
+                    <span class="font-mono font-bold text-emerald-400">+₹1,800</span>
+                  </div>
+
+                  <div class="flex items-center justify-between p-3 rounded-xl bg-slate-800/40 border border-slate-800 text-xs">
+                    <div class="flex items-center gap-2.5">
+                      <span class="w-7 h-7 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center font-bold">QA</span>
+                      <div>
+                        <p class="font-medium text-white">App User Testing</p>
+                        <p class="text-[10px] text-slate-400">Fintech Product Feedback</p>
+                      </div>
+                    </div>
+                    <span class="font-mono font-bold text-emerald-400">+₹850</span>
+                  </div>
+                </div>
+
+                <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+                  <span>⚡ Payout Status: <span class="text-brand-accent font-semibold">Instant Credited</span></span>
+                  <span>Avg Task Time: <strong class="text-white">45 Mins</strong></span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- BRAND LOGOS CAROUSEL / TICKER -->
+      <section class="py-10 bg-brand-surface/40 border-y border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+          <p class="text-xs uppercase tracking-widest font-bold text-slate-400 mb-6">Over 5,000+ Leading Indian Brands Trust Funngro Youth</p>
+          <div class="flex flex-wrap items-center justify-center gap-8 md:gap-14 opacity-70">
+            <span class="font-black text-xl tracking-wider text-slate-300">TATA NEU</span>
+            <span class="font-bold text-xl tracking-wider text-slate-300">boAt</span>
+            <span class="font-bold text-xl tracking-wider text-slate-300">mamaearth</span>
+            <span class="font-extrabold text-xl tracking-wider text-slate-300">ZOMATO</span>
+            <span class="font-black text-xl tracking-wider text-slate-300">Paytm</span>
+            <span class="font-bold text-xl tracking-wider text-slate-300">SWIGGY</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- GIG CATEGORIES SECTION -->
+      <section id="categories" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <h2 class="text-xs uppercase tracking-widest text-brand-accent font-bold">Work On Your Own Terms</h2>
+          <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Explore 100+ Skill Categories</h3>
+          <p class="text-slate-400 text-sm sm:text-base">No degree or previous resume required. Pick tasks suited to your interests and finish them anytime between school and study hours.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Card 1 -->
+          <article class="glassmorphic-card p-6 rounded-2xl hover:border-emerald-500/40 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-brand-accent flex items-center justify-center mb-5 text-xl group-hover:scale-110 transition-transform">
+              📱
+            </div>
+            <h4 class="text-lg font-bold text-white mb-2">Social Media &amp; UGC Video</h4>
+            <p class="text-slate-400 text-xs sm:text-sm mb-4 leading-relaxed">Create short reels, unboxing videos, or share campaign posts with your network.</p>
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+              <span class="text-slate-400">Average Pay:</span>
+              <span class="text-brand-accent font-bold font-mono">₹500 - ₹2,500 / task</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="glassmorphic-card p-6 rounded-2xl hover:border-emerald-500/40 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center mb-5 text-xl group-hover:scale-110 transition-transform">
+              💻
+            </div>
+            <h4 class="text-lg font-bold text-white mb-2">Web &amp; App Development</h4>
+            <p class="text-slate-400 text-xs sm:text-sm mb-4 leading-relaxed">Build landing pages, fix front-end bugs, or assist startups in building HTML/React web assets.</p>
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+              <span class="text-slate-400">Average Pay:</span>
+              <span class="text-brand-accent font-bold font-mono">₹1,500 - ₹8,000 / gig</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="glassmorphic-card p-6 rounded-2xl hover:border-emerald-500/40 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-5 text-xl group-hover:scale-110 transition-transform">
+              ✍️
+            </div>
+            <h4 class="text-lg font-bold text-white mb-2">Content &amp; Blog Writing</h4>
+            <p class="text-slate-400 text-xs sm:text-sm mb-4 leading-relaxed">Write blog posts, product descriptions, video scripts, and social captions for emerging brands.</p>
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+              <span class="text-slate-400">Average Pay:</span>
+              <span class="text-brand-accent font-bold font-mono">₹400 - ₹1,800 / article</span>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="glassmorphic-card p-6 rounded-2xl hover:border-emerald-500/40 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-5 text-xl group-hover:scale-110 transition-transform">
+              🎨
+            </div>
+            <h4 class="text-lg font-bold text-white mb-2">Graphic &amp; Thumbnail Design</h4>
+            <p class="text-slate-400 text-xs sm:text-sm mb-4 leading-relaxed">Design viral YouTube thumbnails, Instagram carousels, and promotional banners on Canva or Photoshop.</p>
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+              <span class="text-slate-400">Average Pay:</span>
+              <span class="text-brand-accent font-bold font-mono">₹600 - ₹3,000 / design</span>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="glassmorphic-card p-6 rounded-2xl hover:border-emerald-500/40 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center mb-5 text-xl group-hover:scale-110 transition-transform">
+              🔍
+            </div>
+            <h4 class="text-lg font-bold text-white mb-2">App Testing &amp; Surveys</h4>
+            <p class="text-slate-400 text-xs sm:text-sm mb-4 leading-relaxed">Download early-stage Android/iOS apps, test checkout flows, report UI glitches, and fill surveys.</p>
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+              <span class="text-slate-400">Average Pay:</span>
+              <span class="text-brand-accent font-bold font-mono">₹250 - ₹1,200 / test</span>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="glassmorphic-card p-6 rounded-2xl hover:border-emerald-500/40 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-5 text-xl group-hover:scale-110 transition-transform">
+              🏛️
+            </div>
+            <h4 class="text-lg font-bold text-white mb-2">Campus Brand Ambassador</h4>
+            <p class="text-slate-400 text-xs sm:text-sm mb-4 leading-relaxed">Represent national tech and lifestyle brands inside your school, junior college, or university campus.</p>
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+              <span class="text-slate-400">Average Pay:</span>
+              <span class="text-brand-accent font-bold font-mono">₹3,000 - ₹15,000 / mo</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- 3-STEP PROCESS SECTION -->
+      <section id="how-it-works" class="py-20 bg-brand-surface/30 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+            <h2 class="text-xs uppercase tracking-widest text-brand-accent font-bold">Fast &amp; Transparent</h2>
+            <h3 class="text-3xl sm:text-4xl font-extrabold text-white">How Teen Earning Works in 3 Steps</h3>
+            <p class="text-slate-400 text-sm">No complicated contracts. Complete tasks right from your phone in your spare time.</p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8 relative">
+            
+            <div class="glassmorphic p-8 rounded-3xl relative border border-slate-800">
+              <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 text-brand-accent font-black text-xl flex items-center justify-center mb-6">
+                1
+              </div>
+              <h4 class="text-xl font-bold text-white mb-3">Pick a Campaign</h4>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Browse hundreds of live tasks posted by verified companies. Filter by skills, time needed (15 mins to 2 hrs), and payout amount.
+              </p>
+            </div>
+
+            <div class="glassmorphic p-8 rounded-3xl relative border border-slate-800">
+              <div class="w-12 h-12 rounded-2xl bg-brand-accent text-brand-darker font-black text-xl flex items-center justify-center mb-6 shadow-glow-emerald">
+                2
+              </div>
+              <h4 class="text-xl font-bold text-white mb-3">Submit Proof</h4>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Upload your completed work, live social link, or screenshot proof straight to the Funngro dashboard for quality verification.
+              </p>
+            </div>
+
+            <div class="glassmorphic p-8 rounded-3xl relative border border-slate-800">
+              <div class="w-12 h-12 rounded-2xl bg-teal-500/20 text-teal-300 font-black text-xl flex items-center justify-center mb-6">
+                3
+              </div>
+              <h4 class="text-xl font-bold text-white mb-3">Instant UPI Payout</h4>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Once reviewed (within 24 hours), your earnings transfer directly to your registered UPI ID or parents' bank account.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- INTERACTIVE EARNINGS ESTIMATOR SLIDER -->
+      <section id="teen-calculator" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="glassmorphic-card p-8 sm:p-12 rounded-3xl border border-emerald-500/30 relative overflow-hidden">
+          
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span class="text-xs uppercase tracking-widest font-bold text-brand-accent">Interactive Calculator</span>
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Estimate Your Monthly Pocket Earnings</h3>
+            <p class="text-slate-400 text-xs sm:text-sm mt-2">See how much you can earn based on your favorite category and available study breaks.</p>
+          </div>
+
+          <div class="grid md:grid-cols-12 gap-8 items-center">
+            
+            <div class="md:col-span-7 space-y-6">
+              <!-- Select Category -->
+              <div>
+                <label for="calc-category" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Select Your Focus Area</label>
+                <select id="calc-category" onchange="calculateTeenEarnings()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent">
+                  <option value="ugc">Social Media &amp; UGC Video (₹600/hr avg)</option>
+                  <option value="tech">Web &amp; App Development (₹900/hr avg)</option>
+                  <option value="content">Content &amp; Script Writing (₹450/hr avg)</option>
+                  <option value="design">Graphic Design &amp; Thumbnails (₹550/hr avg)</option>
+                  <option value="testing">App Testing &amp; Research (₹350/hr avg)</option>
+                </select>
+              </div>
+
+              <!-- Hours Slider -->
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs font-semibold text-slate-300 uppercase tracking-wider">Hours Dedicated Per Week</span>
+                  <span id="calc-hours-display" class="text-brand-accent font-bold font-mono text-base">6 Hours/Week</span>
+                </div>
+                <input type="range" id="calc-hours" min="2" max="25" value="6" step="1" oninput="calculateTeenEarnings()" class="w-full accent-brand-accent cursor-pointer bg-slate-800 rounded-lg">
+                <div class="flex justify-between text-[11px] text-slate-500 mt-1">
+                  <span>2 hrs (Casual)</span>
+                  <span>10 hrs (Active)</span>
+                  <span>25 hrs (Superstar)</span>
+                </div>
+              </div>
+
+              <!-- Skill Level Radio -->
+              <div>
+                <span class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Experience Tier</span>
+                <div class="grid grid-cols-3 gap-2">
+                  <button type="button" onclick="setExperienceTier(1, this)" class="tier-btn px-3 py-2 rounded-xl text-xs font-bold border border-emerald-500 bg-emerald-500/20 text-brand-accent">Starter</button>
+                  <button type="button" onclick="setExperienceTier(1.3, this)" class="tier-btn px-3 py-2 rounded-xl text-xs font-medium border border-slate-700 bg-slate-900 text-slate-400 hover:text-white">Intermediate</button>
+                  <button type="button" onclick="setExperienceTier(1.7, this)" class="tier-btn px-3 py-2 rounded-xl text-xs font-medium border border-slate-700 bg-slate-900 text-slate-400 hover:text-white">Pro Creator</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projected Output Card -->
+            <div class="md:col-span-5 bg-brand-darker/95 p-6 rounded-2xl border border-emerald-500/40 text-center space-y-4">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Estimated Monthly Income</span>
+              <div id="calc-result" class="text-4xl sm:text-5xl font-black text-brand-accent font-mono neon-text-glow">
+                ₹14,400
+              </div>
+              <p class="text-xs text-slate-400">Directly deposited into your verified UPI ID via safe Funngro Escrow.</p>
+              
+              <div class="pt-3 border-t border-slate-800 text-[11px] text-slate-400 space-y-1">
+                <div>💰 Projected Annual Savings: <strong id="calc-annual" class="text-white font-mono">₹1,72,800</strong></div>
+                <div class="text-brand-accent">✦ Verified Certificate of Experience included</div>
+              </div>
+
+              <button onclick="showToast('App link sent! Check your SMS to download Funngro.')" class="w-full py-3 rounded-xl bg-brand-accent hover:bg-emerald-400 text-brand-darker font-bold text-xs uppercase tracking-wider transition-all">
+                Claim Your Free Profile
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS SECTION -->
+      <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-2">
+          <h2 class="text-xs uppercase tracking-widest text-brand-accent font-bold">Real Stories</h2>
+          <h3 class="text-3xl font-extrabold text-white">How Teenagers Are Earning with Funngro</h3>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="glassmorphic p-6 rounded-2xl border border-slate-800 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-emerald-500/20 text-brand-accent font-bold flex items-center justify-center">
+                DK
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Diya Kapoor, 16</h4>
+                <p class="text-xs text-slate-400">Class 11, Mumbai</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              "I bought my own iPad using money made on Funngro by creating short UGC video scripts for D2C beauty brands. My parents were so proud!"
+            </p>
+            <div class="text-xs font-mono font-bold text-brand-accent pt-2 border-t border-slate-800">
+              Total Earned: ₹42,600
+            </div>
+          </div>
+
+          <div class="glassmorphic p-6 rounded-2xl border border-slate-800 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-cyan-500/20 text-cyan-400 font-bold flex items-center justify-center">
+                RP
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Rohan Patel, 18</h4>
+                <p class="text-xs text-slate-400">1st Year College, Pune</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              "Funngro gave me my first real developer gigs. I fixed responsive CSS bugs for tech startups. It looks 10x better on my resume than just college marks."
+            </p>
+            <div class="text-xs font-mono font-bold text-brand-accent pt-2 border-t border-slate-800">
+              Total Earned: ₹68,200
+            </div>
+          </div>
+
+          <div class="glassmorphic p-6 rounded-2xl border border-slate-800 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-purple-500/20 text-purple-400 font-bold flex items-center justify-center">
+                TN
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Tanvi Nair, 15</h4>
+                <p class="text-xs text-slate-400">Class 10, Bengaluru</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              "I was nervous if this was safe, but Funngro required parent verification and payouts go straight to our bank account. It's 100% genuine."
+            </p>
+            <div class="text-xs font-mono font-bold text-brand-accent pt-2 border-t border-slate-800">
+              Total Earned: ₹21,500
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ ACCORDION -->
+      <section id="faqs" class="py-20 bg-brand-surface/20 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+          <div class="text-center mb-14">
+            <h2 class="text-xs uppercase tracking-widest text-brand-accent font-bold">Frequently Asked Questions</h2>
+            <h3 class="text-3xl font-extrabold text-white mt-1">Everything You Need to Know</h3>
+          </div>
+
+          <div class="space-y-4">
+            <div class="glassmorphic rounded-2xl border border-slate-800 overflow-hidden">
+              <button onclick="toggleAccordion(1)" class="w-full px-6 py-4 text-left flex justify-between items-center text-sm font-bold text-white hover:text-brand-accent transition-colors">
+                <span>Do I need prior work experience or an adult bank account?</span>
+                <span id="accordion-icon-1" class="text-brand-accent font-mono text-lg">+</span>
+              </button>
+              <div id="accordion-content-1" class="hidden px-6 pb-4 text-xs sm:text-sm text-slate-400 leading-relaxed">
+                No prior experience is necessary! Tasks have step-by-step guidance. For payments, you can connect your own minor savings account UPI ID or your parent’s UPI/bank account with their consent.
+              </div>
+            </div>
+
+            <div class="glassmorphic rounded-2xl border border-slate-800 overflow-hidden">
+              <button onclick="toggleAccordion(2)" class="w-full px-6 py-4 text-left flex justify-between items-center text-sm font-bold text-white hover:text-brand-accent transition-colors">
+                <span>Is Funngro safe and approved for teenagers under 18?</span>
+                <span id="accordion-icon-2" class="text-brand-accent font-mono text-lg">+</span>
+              </button>
+              <div id="accordion-content-2" class="hidden px-6 pb-4 text-xs sm:text-sm text-slate-400 leading-relaxed">
+                Yes, Funngro is designed from the ground up for teenagers (ages 14 to 22). Every corporate task is vetted for age-appropriateness, and parental consent is integrated into account onboarding.
+              </div>
+            </div>
+
+            <div class="glassmorphic rounded-2xl border border-slate-800 overflow-hidden">
+              <button onclick="toggleAccordion(3)" class="w-full px-6 py-4 text-left flex justify-between items-center text-sm font-bold text-white hover:text-brand-accent transition-colors">
+                <span>How quickly do I get paid once I submit my task?</span>
+                <span id="accordion-icon-3" class="text-brand-accent font-mono text-lg">+</span>
+              </button>
+              <div id="accordion-content-3" class="hidden px-6 pb-4 text-xs sm:text-sm text-slate-400 leading-relaxed">
+                Once you upload proof of completion, the company or Funngro verification team audits it within 24 to 48 hours. The funds are held in escrow and released immediately to your wallet.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+
+    <!-- =================================================================== -->
+    <!-- VIEW 2: COMPANY / BRAND SOLUTIONS HUB (Page 2)                      -->
+    <!-- =================================================================== -->
+    <div id="company-portal-view" class="hidden transition-opacity duration-300">
+
+      <!-- ENTERPRISE HERO -->
+      <section class="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden">
+        <div class="absolute top-1/4 left-1/3 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-cyan/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+              
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/70 border border-cyan-500/30 text-cyan-300 text-xs font-semibold">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+                <span>Enterprise &amp; Startup Growth Platform</span>
+              </div>
+
+              <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+                Hire India’s Largest Gen-Z Workforce of <span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent">70 Lakh+ Creators</span>
+              </h1>
+
+              <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                Drive hyper-authentic UGC campaigns, viral social buzz, app store installs, and campus activations at <strong>1/10th traditional agency costs</strong>.
+              </p>
+
+              <!-- Proof Highlights -->
+              <div class="grid grid-cols-3 gap-3 p-4 rounded-2xl bg-brand-darker/90 border border-cyan-500/20 text-center">
+                <div>
+                  <div class="text-xl sm:text-2xl font-black text-brand-accent font-mono">5,000+</div>
+                  <div class="text-[11px] text-slate-400 font-medium">Brands Onboarded</div>
+                </div>
+                <div class="border-x border-slate-800">
+                  <div class="text-xl sm:text-2xl font-black text-cyan-400 font-mono">98.4%</div>
+                  <div class="text-[11px] text-slate-400 font-medium">Task Quality SLA</div>
+                </div>
+                <div>
+                  <div class="text-xl sm:text-2xl font-black text-white font-mono">&lt; 48 Hrs</div>
+                  <div class="text-[11px] text-slate-400 font-medium">Campaign Go-Live</div>
+                </div>
+              </div>
+
+              <!-- Dual CTAs -->
+              <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                <a href="#brand-inquiry" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-brand-accent to-emerald-500 text-brand-darker font-bold text-center hover:opacity-95 transition-all shadow-glow-emerald">
+                  Post a Campaign (Launch in 48h)
+                </a>
+                <a href="#brand-roi" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-center border border-slate-700 transition-all">
+                  Calculate Campaign ROI 📊
+                </a>
+              </div>
+
+            </div>
+
+            <!-- Campaign Visual Dashboard Card -->
+            <div class="lg:col-span-5">
+              <div class="glassmorphic-card p-6 sm:p-8 rounded-3xl border border-cyan-500/30 shadow-2xl relative">
+                
+                <div class="flex justify-between items-center border-b border-slate-800 pb-4 mb-5">
+                  <div>
+                    <span class="text-[11px] font-bold text-cyan-400 uppercase tracking-wider">Enterprise Campaign Live</span>
+                    <h3 class="text-base font-bold text-white">Gen-Z UGC Video Blitz</h3>
+                  </div>
+                  <span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-brand-accent">
+                    ACTIVE
+                  </span>
+                </div>
+
+                <div class="space-y-4">
+                  <div>
+                    <div class="flex justify-between text-xs text-slate-300 mb-1">
+                      <span>Delivery Target: 2,500 Authentic Reels</span>
+                      <span class="text-brand-accent font-bold">2,140 / 2,500 (85%)</span>
+                    </div>
+                    <div class="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
+                      <div class="bg-gradient-to-r from-brand-accent to-cyan-400 h-full w-[85%] rounded-full"></div>
+                    </div>
+                  </div>
+
+                  <div class="grid grid-cols-2 gap-3 text-xs">
+                    <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+                      <div class="text-slate-400">Total Organic Views</div>
+                      <div class="text-lg font-bold text-white font-mono mt-0.5">4.8 Million</div>
+                    </div>
+                    <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+                      <div class="text-slate-400">Avg Cost Per View</div>
+                      <div class="text-lg font-bold text-brand-accent font-mono mt-0.5">₹0.12</div>
+                    </div>
+                  </div>
+
+                  <div class="p-4 rounded-xl bg-emerald-950/30 border border-emerald-500/20 text-xs text-slate-300">
+                    <strong class="text-brand-accent block mb-1">✓ Automated Human QA Verification</strong>
+                    Every submitted reel, link, and review is verified by Funngro’s audit team before campaign payout is released.
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ENTERPRISE CAPABILITIES GRID -->
+      <section id="solutions" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+          <h2 class="text-xs uppercase tracking-widest text-cyan-400 font-bold">Scalable Enterprise Marketing</h2>
+          <h3 class="text-3xl sm:text-4xl font-extrabold text-white">How Brands Win with Funngro</h3>
+          <p class="text-slate-400 text-sm">Cut through expensive influencer fees with authentic micro and nano community advocates.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <div class="glassmorphic p-7 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all">
+            <div class="text-3xl mb-4">🚀</div>
+            <h4 class="text-lg font-bold text-white mb-2">Nano-Influencer UGC Blitz</h4>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Mobilize hundreds of Gen-Z creators simultaneously to post authentic reels, YouTube shorts, and TikToks reviewing your brand.
+            </p>
+          </div>
+
+          <div class="glassmorphic p-7 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all">
+            <div class="text-3xl mb-4">⭐</div>
+            <h4 class="text-lg font-bold text-white mb-2">App Store Optimization &amp; Reviews</h4>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Drive genuine app downloads, first-session retention, and authentic verified store feedback from real phone users across India.
+            </p>
+          </div>
+
+          <div class="glassmorphic p-7 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all">
+            <div class="text-3xl mb-4">🎓</div>
+            <h4 class="text-lg font-bold text-white mb-2">Pan-India College Ambassadors</h4>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Deploy student representatives across 1,000+ top colleges and universities for offline activations, poster blitzes, and event booths.
+            </p>
+          </div>
+
+          <div class="glassmorphic p-7 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all">
+            <div class="text-3xl mb-4">📊</div>
+            <h4 class="text-lg font-bold text-white mb-2">Gen-Z Consumer Research</h4>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Get immediate survey feedback and focus group insights on brand logos, packaging, pricing, and product launches within 24 hours.
+            </p>
+          </div>
+
+          <div class="glassmorphic p-7 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all">
+            <div class="text-3xl mb-4">💻</div>
+            <h4 class="text-lg font-bold text-white mb-2">Crowdsourced Bug Bounty &amp; QA</h4>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Test your newly released features on hundreds of device models and real telecom networks with detailed bug reports and device logs.
+            </p>
+          </div>
+
+          <div class="glassmorphic p-7 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all">
+            <div class="text-3xl mb-4">🔒</div>
+            <h4 class="text-lg font-bold text-white mb-2">Escrow-Backed Safety</h4>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Pay strictly on performance. Funds are only disbursed to youth when the submitted proofs strictly match your campaign deliverables.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- INTERACTIVE BRAND ROI & BUDGET CALCULATOR -->
+      <section id="brand-roi" class="py-20 bg-brand-surface/40 border-y border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="glassmorphic-card p-8 sm:p-12 rounded-3xl border border-cyan-500/30">
+            
+            <div class="text-center max-w-2xl mx-auto mb-10">
+              <span class="text-xs uppercase tracking-widest font-bold text-cyan-400">Campaign Planning Tool</span>
+              <h3 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Estimate Your Campaign Reach &amp; Savings</h3>
+              <p class="text-slate-400 text-xs sm:text-sm mt-2">Compare Funngro's distributed Gen-Z model with traditional marketing agencies.</p>
+            </div>
+
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+              
+              <div class="md:col-span-7 space-y-6">
+                <div>
+                  <label for="company-objective" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Campaign Objective</label>
+                  <select id="company-objective" onchange="calculateCompanyROI()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-400">
+                    <option value="ugc">Gen-Z UGC Video Reels (Instagram / YouTube)</option>
+                    <option value="app">App Installs &amp; Verified Reviews</option>
+                    <option value="ambassador">College Campus Ambassadors</option>
+                    <option value="research">Survey Responses &amp; Market Insights</option>
+                  </select>
+                </div>
+
+                <div>
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-xs font-semibold text-slate-300 uppercase tracking-wider">Target Units / Participants</span>
+                    <span id="company-volume-display" class="text-cyan-400 font-bold font-mono text-base">500 Creators</span>
+                  </div>
+                  <input type="range" id="company-volume" min="100" max="5000" value="500" step="50" oninput="calculateCompanyROI()" class="w-full accent-cyan-400 cursor-pointer bg-slate-800 rounded-lg">
+                  <div class="flex justify-between text-[11px] text-slate-500 mt-1">
+                    <span>100 Units (Pilot)</span>
+                    <span>1,000 Units (Scale)</span>
+                    <span>5,000 Units (Blitz)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ROI Comparison Card -->
+              <div class="md:col-span-5 bg-brand-darker/95 p-6 rounded-2xl border border-cyan-500/30 text-center space-y-4">
+                <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Estimated Funngro Budget</span>
+                <div id="company-cost-display" class="text-3xl sm:text-4xl font-black text-brand-accent font-mono">
+                  ₹2,50,000
+                </div>
+                
+                <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-xs space-y-1.5 text-left">
+                  <div class="flex justify-between text-slate-400">
+                    <span>Traditional Agency Cost:</span>
+                    <span id="company-agency-display" class="line-through font-mono">₹7,50,000</span>
+                  </div>
+                  <div class="flex justify-between font-bold text-cyan-400">
+                    <span>Estimated Cost Savings:</span>
+                    <span id="company-savings-display">~67% Saved</span>
+                  </div>
+                </div>
+
+                <a href="#brand-inquiry" class="block w-full py-3 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-brand-darker font-bold text-xs uppercase tracking-wider transition-all">
+                  Get Custom Campaign Proposal
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRAND INQUIRY & LEAD GENERATION FORM -->
+      <section id="brand-inquiry" class="py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="glassmorphic p-8 sm:p-12 rounded-3xl border border-slate-800">
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span class="text-xs uppercase tracking-widest font-bold text-brand-accent">Partner with Us</span>
+            <h3 class="text-3xl font-extrabold text-white mt-1">Launch Your Brand Campaign in 48 Hours</h3>
+            <p class="text-slate-400 text-xs sm:text-sm mt-2">Fill out your goals below and a dedicated Funngro campaign strategist will get back to you with custom talent packages.</p>
+          </div>
+
+          <form id="brand-form" onsubmit="handleBrandFormSubmit(event)" class="space-y-5">
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div>
+                <label for="company-name" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Company / Brand Name</label>
+                <input type="text" id="company-name" required placeholder="e.g. Acme Tech Pvt Ltd" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent">
+              </div>
+              <div>
+                <label for="company-email" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Work Email Address</label>
+                <input type="email" id="company-email" required placeholder="name@company.com" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent">
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div>
+                <label for="company-phone" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Phone / WhatsApp Number</label>
+                <input type="tel" id="company-phone" required placeholder="+91 98765 43210" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent">
+              </div>
+              <div>
+                <label for="campaign-budget" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Approximate Budget Range</label>
+                <select id="campaign-budget" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent">
+                  <option value="starter">₹25,000 - ₹50,000 (Pilot Campaign)</option>
+                  <option value="growth">₹50,000 - ₹2,00,000 (Growth Blitz)</option>
+                  <option value="scale">₹2,00,000 - ₹10,00,000 (Pan-India Campus)</option>
+                  <option value="enterprise">₹10,00,000+ (Custom Enterprise)</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="campaign-brief" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Campaign Brief / Requirements</label>
+              <textarea id="campaign-brief" rows="3" placeholder="Tell us about your campaign goals (e.g., need 500 college students to create reels reviewing our new smartwatch)..." class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-4 rounded-xl bg-brand-accent hover:bg-emerald-400 text-brand-darker font-extrabold text-sm uppercase tracking-wider transition-all shadow-glow-emerald">
+              Submit Campaign Request 🚀
+            </button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- ========================================================== -->
+  <!-- COMPREHENSIVE FOOTER -->
+  <!-- ========================================================== -->
+  <footer class="bg-brand-darker border-t border-slate-800 text-slate-400 text-xs pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+        
+        <div class="col-span-2 space-y-4">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-lg bg-brand-accent flex items-center justify-center font-black text-brand-darker">
+              F
+            </div>
+            <span class="text-xl font-bold text-white tracking-tight">funngro.</span>
+          </div>
+          <p class="text-xs text-slate-400 max-w-sm leading-relaxed">
+            Funngro is India’s dedicated teen talent network, inspiring financial literacy, real-world skills, and independent income for school and college youth.
+          </p>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/60 border border-emerald-500/20 text-brand-accent text-[11px] font-semibold">
+            🦈 Featured on Shark Tank India S2
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider text-[11px] mb-3">For Students</h4>
+          <ul class="space-y-2">
+            <li><a href="javascript:switchPortal('teens')" class="hover:text-brand-accent transition-colors">Find Gigs</a></li>
+            <li><a href="javascript:switchPortal('teens')" class="hover:text-brand-accent transition-colors">Earnings Estimator</a></li>
+            <li><a href="javascript:switchPortal('teens')" class="hover:text-brand-accent transition-colors">Parent Consent Guide</a></li>
+            <li><a href="javascript:switchPortal('teens')" class="hover:text-brand-accent transition-colors">Skill Certification</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider text-[11px] mb-3">For Companies</h4>
+          <ul class="space-y-2">
+            <li><a href="javascript:switchPortal('companies')" class="hover:text-brand-accent transition-colors">Post Campaign</a></li>
+            <li><a href="javascript:switchPortal('companies')" class="hover:text-brand-accent transition-colors">UGC Video Blitz</a></li>
+            <li><a href="javascript:switchPortal('companies')" class="hover:text-brand-accent transition-colors">Campus Ambassadors</a></li>
+            <li><a href="javascript:switchPortal('companies')" class="hover:text-brand-accent transition-colors">ROI Calculator</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider text-[11px] mb-3">Safety &amp; Legal</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-brand-accent transition-colors">Child Safety Policy</a></li>
+            <li><a href="#" class="hover:text-brand-accent transition-colors">Terms of Service</a></li>
+            <li><a href="#" class="hover:text-brand-accent transition-colors">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-brand-accent transition-colors">Escrow Protection</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+        <p>© 2026 Funngro Technologies Pvt. Ltd. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <span>Made for the Gen-Z Builders of India 🇮🇳</span>
+          <span>•</span>
+          <a href="#" class="hover:text-white">Instagram</a>
+          <a href="#" class="hover:text-white">LinkedIn</a>
+          <a href="#" class="hover:text-white">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================== -->
+  <!-- INTERACTIVE TOAST NOTIFICATION CONTAINER -->
+  <!-- ========================================================== -->
+  <div id="toast-container" class="fixed bottom-6 right-6 z-50 pointer-events-none"></div>
+
+  <!-- ========================================================== -->
+  <!-- MODAL FOR SUCCESSFUL FORM SUBMISSION -->
+  <!-- ========================================================== -->
+  <div id="success-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+    <div class="glassmorphic-card p-8 rounded-3xl max-w-md w-full border border-emerald-500/40 text-center space-y-4">
+      <div class="w-16 h-16 rounded-full bg-emerald-500/20 text-brand-accent flex items-center justify-center mx-auto text-3xl">
+        🎉
+      </div>
+      <h3 class="text-xl font-bold text-white">Campaign Request Received!</h3>
+      <p id="modal-company-msg" class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+        Thank you for trusting Funngro. A dedicated campaign manager will contact your team within 2 business hours with a custom media deck.
+      </p>
+      <button onclick="closeModal()" class="w-full py-3 rounded-xl bg-brand-accent text-brand-darker font-bold text-xs uppercase tracking-wider hover:bg-emerald-400 transition-all">
+        Done
+      </button>
+    </div>
+  </div>
+
+  <!-- ========================================================== -->
+  <!-- JAVASCRIPT CONTROLLER (View Switching, Calculators & Forms) -->
+  <!-- ========================================================== -->
+  <script>
+    // State
+    let currentPortal = 'teens';
+    let teenExpMultiplier = 1;
+
+    // Navigation links data
+    const navConfigs = {
+      teens: {
+        links: [
+          { name: 'Active Gigs', href: '#categories' },
+          { name: 'How It Works', href: '#how-it-works' },
+          { name: 'Earnings Calculator', href: '#teen-calculator' },
+          { name: 'FAQs', href: '#faqs' }
+        ],
+        ctaText: 'Get the App (Free)',
+        ctaAction: () => showToast('Redirecting to Google Play Store / App Store...'),
+        ctaClass: 'bg-brand-accent text-brand-darker hover:bg-emerald-400 shadow-glow-emerald'
+      },
+      companies: {
+        links: [
+          { name: 'Capabilities', href: '#solutions' },
+          { name: 'ROI Calculator', href: '#brand-roi' },
+          { name: 'Book Strategy Call', href: '#brand-inquiry' }
+        ],
+        ctaText: 'Post a Campaign',
+        ctaAction: () => {
+          const el = document.getElementById('brand-inquiry');
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        },
+        ctaClass: 'bg-cyan-400 text-brand-darker hover:bg-cyan-300 shadow-glow-cyan'
+      }
+    };
+
+    // Initialize on DOM load
+    window.addEventListener('DOMContentLoaded', () => {
+      // Check for URL hash
+      const hash = window.location.hash.toLowerCase();
+      if (hash.includes('company') || hash.includes('companies')) {
+        switchPortal('companies', false);
+      } else {
+        switchPortal('teens', false);
+      }
+      calculateTeenEarnings();
+      calculateCompanyROI();
+    });
+
+    // View Switcher logic (Page 1 vs Page 2)
+    function switchPortal(portal, updateHash = true) {
+      currentPortal = portal;
+      const teenView = document.getElementById('teen-portal-view');
+      const companyView = document.getElementById('company-portal-view');
+      const teenBtn = document.getElementById('toggle-teens');
+      const compBtn = document.getElementById('toggle-companies');
+      
+      // Update SEO Head elements
+      const seoTitle = document.getElementById('seo-title');
+      const seoDesc = document.getElementById('seo-desc');
+      const ogTitle = document.getElementById('og-title');
+
+      if (portal === 'teens') {
+        teenView.classList.remove('hidden');
+        companyView.classList.add('hidden');
+
+        // Button Styles
+        teenBtn.className = "px-5 py-2 rounded-full text-xs sm:text-sm font-bold flex items-center gap-2 transition-all duration-200 bg-brand-accent text-brand-darker shadow-glow-emerald";
+        compBtn.className = "px-5 py-2 rounded-full text-xs sm:text-sm font-medium flex items-center gap-2 transition-all duration-200 text-slate-400 hover:text-white";
+
+        // SEO Dynamic Meta
+        document.title = "Funngro Teen Hub | Earn Your First Income from Real Company Projects";
+        if (seoTitle) seoTitle.innerText = "Funngro Teen Hub | Earn Your First Income from Real Company Projects";
+        if (seoDesc) seoDesc.setAttribute('content', 'School and college students can earn pocket money, receive instant UPI payouts, and gain verified experience with top Indian brands.');
+        if (ogTitle) ogTitle.setAttribute('content', 'Funngro Teen Hub | Get Paid by India’s Top Brands');
+
+        if (updateHash) history.replaceState(null, null, '#teens');
+      } else {
+        teenView.classList.add('hidden');
+        companyView.classList.remove('hidden');
+
+        // Button Styles
+        compBtn.className = "px-5 py-2 rounded-full text-xs sm:text-sm font-bold flex items-center gap-2 transition-all duration-200 bg-cyan-400 text-brand-darker shadow-glow-cyan";
+        teenBtn.className = "px-5 py-2 rounded-full text-xs sm:text-sm font-medium flex items-center gap-2 transition-all duration-200 text-slate-400 hover:text-white";
+
+        // SEO Dynamic Meta
+        document.title = "Funngro for Brands | Hire India's Largest Gen-Z Talent Network of 70L+ Creators";
+        if (seoTitle) seoTitle.innerText = "Funngro for Brands | Hire India's Largest Gen-Z Talent Network of 70L+ Creators";
+        if (seoDesc) seoDesc.setAttribute('content', 'Scale your hyper-local student reach, authentic UGC content, app downloads, and campus activations at 1/10th traditional marketing costs.');
+        if (ogTitle) ogTitle.setAttribute('content', 'Funngro for Brands | Gen-Z Influencer & Campus Marketing');
+
+        if (updateHash) history.replaceState(null, null, '#companies');
+      }
+
+      renderNav();
+    }
+
+    // Render Navigation based on active portal
+    function renderNav() {
+      const config = navConfigs[currentPortal];
+      const navLinks = document.getElementById('dynamic-nav-links');
+      const mobileNavLinks = document.getElementById('mobile-nav-links');
+      const ctaBtn = document.getElementById('dynamic-cta-btn');
+      const mobileCtaBtn = document.getElementById('mobile-cta-btn');
+
+      // Desktop links
+      navLinks.innerHTML = config.links.map(link => 
+        `<li><a href="${link.href}" class="hover:text-brand-accent transition-colors">${link.name}</a></li>`
+      ).join('');
+
+      // Desktop CTA
+      ctaBtn.innerHTML = `
+        <button onclick="navConfigs['${currentPortal}'].ctaAction()" class="px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${config.ctaClass}">
+          ${config.ctaText}
+        </button>
+      `;
+
+      // Mobile links
+      mobileNavLinks.innerHTML = config.links.map(link => 
+        `<li><a href="${link.href}" onclick="toggleMobileMenu()" class="block py-1 hover:text-brand-accent transition-colors">${link.name}</a></li>`
+      ).join('');
+
+      // Mobile CTA
+      mobileCtaBtn.innerHTML = `
+        <button onclick="navConfigs['${currentPortal}'].ctaAction(); toggleMobileMenu();" class="w-full py-3 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${config.ctaClass}">
+          ${config.ctaText}
+        </button>
+      `;
+    }
+
+    // Mobile menu toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+
+    // ==========================================================
+    // TEEN EARNINGS CALCULATOR LOGIC
+    // ==========================================================
+    const categoryHourlyRates = {
+      ugc: 600,
+      tech: 900,
+      content: 450,
+      design: 550,
+      testing: 350
+    };
+
+    function setExperienceTier(mult, btn) {
+      teenExpMultiplier = mult;
+      document.querySelectorAll('.tier-btn').forEach(b => {
+        b.className = "tier-btn px-3 py-2 rounded-xl text-xs font-medium border border-slate-700 bg-slate-900 text-slate-400 hover:text-white";
+      });
+      btn.className = "tier-btn px-3 py-2 rounded-xl text-xs font-bold border border-emerald-500 bg-emerald-500/20 text-brand-accent";
+      calculateTeenEarnings();
+    }
+
+    function calculateTeenEarnings() {
+      const categorySelect = document.getElementById('calc-category');
+      const hoursInput = document.getElementById('calc-hours');
+      const hoursDisplay = document.getElementById('calc-hours-display');
+      const resultDisplay = document.getElementById('calc-result');
+      const annualDisplay = document.getElementById('calc-annual');
+
+      const hours = parseInt(hoursInput.value, 10);
+      const catKey = categorySelect.value;
+      const baseHourly = categoryHourlyRates[catKey] || 500;
+
+      hoursDisplay.innerText = `${hours} Hours/Week`;
+
+      // 4 weeks per month * hours * rate * tier multiplier
+      const monthlyTotal = Math.round(hours * 4 * baseHourly * teenExpMultiplier);
+      const annualTotal = monthlyTotal * 12;
+
+      resultDisplay.innerText = `₹${monthlyTotal.toLocaleString('en-IN')}`;
+      annualDisplay.innerText = `₹${annualTotal.toLocaleString('en-IN')}`;
+    }
+
+    // ==========================================================
+    // COMPANY CAMPAIGN ROI CALCULATOR
+    // ==========================================================
+    const objectivePricing = {
+      ugc: { unitFunngro: 500, unitAgency: 1500 },
+      app: { unitFunngro: 60, unitAgency: 180 },
+      ambassador: { unitFunngro: 3500, unitAgency: 9000 },
+      research: { unitFunngro: 150, unitAgency: 500 }
+    };
+
+    function calculateCompanyROI() {
+      const objSelect = document.getElementById('company-objective');
+      const volumeInput = document.getElementById('company-volume');
+      const volumeDisplay = document.getElementById('company-volume-display');
+      const costDisplay = document.getElementById('company-cost-display');
+      const agencyDisplay = document.getElementById('company-agency-display');
+      const savingsDisplay = document.getElementById('company-savings-display');
+
+      const volume = parseInt(volumeInput.value, 10);
+      const pricing = objectivePricing[objSelect.value] || objectivePricing.ugc;
+
+      volumeDisplay.innerText = `${volume.toLocaleString('en-IN')} Units / Deliverables`;
+
+      const funngroCost = volume * pricing.unitFunngro;
+      const agencyCost = volume * pricing.unitAgency;
+      const savingsPercent = Math.round(((agencyCost - funngroCost) / agencyCost) * 100);
+
+      costDisplay.innerText = `₹${funngroCost.toLocaleString('en-IN')}`;
+      agencyDisplay.innerText = `₹${agencyCost.toLocaleString('en-IN')}`;
+      savingsDisplay.innerText = `~${savingsPercent}% Saved vs Agency`;
+    }
+
+    // FAQ Accordion Toggle
+    function toggleAccordion(id) {
+      const content = document.getElementById(`accordion-content-${id}`);
+      const icon = document.getElementById(`accordion-icon-${id}`);
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.innerText = '−';
+      } else {
+        content.classList.add('hidden');
+        icon.innerText = '+';
+      }
+    }
+
+    // Brand Lead Gen Form Handler
+    function handleBrandFormSubmit(e) {
+      e.preventDefault();
+      const companyName = document.getElementById('company-name').value;
+      const modal = document.getElementById('success-modal');
+      const msg = document.getElementById('modal-company-msg');
+
+      msg.innerText = `Thank you, ${companyName}! Our enterprise partnership team has received your brief and will prepare a customized proposal within 2 hours.`;
+      modal.classList.remove('hidden');
+
+      // Reset form
+      document.getElementById('brand-form').reset();
+    }
+
+    function closeModal() {
+      document.getElementById('success-modal').classList.add('hidden');
+    }
+
+    // Custom Toast Notification System
+    function showToast(message) {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = "pointer-events-auto flex items-center gap-3 bg-brand-surface border border-emerald-500/40 text-slate-100 text-xs px-4 py-3 rounded-xl shadow-2xl transition-all duration-300 transform translate-y-4 opacity-0";
+      toast.innerHTML = `
+        <span class="text-brand-accent text-base">✓</span>
+        <span>${message}</span>
+      `;
+
+      container.appendChild(toast);
+
+      requestAnimationFrame(() => {
+        toast.classList.remove('translate-y-4', 'opacity-0');
+      });
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => toast.remove(), 300);
+      }, 3500);
+    }
+  </script>
+</body>
+</html>
